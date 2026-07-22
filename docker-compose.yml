@@ -1,0 +1,12 @@
+# A convenience wrapper so you can run the container with one command.
+# Usage:
+#   docker compose up --build      (build image + run, view at http://localhost:8080)
+#   docker compose down            (stop and remove)
+services:
+  portfolio:
+    build: .
+    image: ravindu-portfolio:latest
+    container_name: ravindu-portfolio
+    ports:
+      - "8080:80"   # host:container  ->  open http://localhost:8080
+    restart: unless-stopped
