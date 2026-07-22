@@ -8,5 +8,5 @@ services:
     image: ravindu-portfolio:latest
     container_name: ravindu-portfolio
     ports:
-      - "8080:80"   # host:container  ->  open http://localhost:8080
+      - "8080:80" # host:container  ->  open http://localhost:8080
     restart: unless-stopped
