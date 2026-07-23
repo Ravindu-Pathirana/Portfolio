@@ -7,7 +7,7 @@ function Avatar() {
   if (profile.photo) {
     return (
       <img
-        src={profile.photo}
+        src={`${import.meta.env.BASE_URL}${profile.photo.replace(/^\//, '')}`}
         alt={profile.name}
         className="w-full h-full object-cover rounded-3xl"
       />
