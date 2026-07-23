@@ -11,7 +11,7 @@ export const profile = {
   location: 'Colombo, Sri Lanka',
   // Put your photo file in /public and set the path, e.g. '/profile.jpg'.
   // Leave as null to show your initials instead.
-  photo: null,
+  photo: '/profile.jpg',
   resumeUrl: null, // e.g. '/Ravindu_Pathirana_CV.pdf' (put the file in /public)
 }
 
