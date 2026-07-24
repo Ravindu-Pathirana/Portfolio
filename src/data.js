@@ -331,10 +331,8 @@ export const volunteering = [
 ];
 // Sliding gallery shown just before Contact — certificates, competition
 // photos, volunteering moments, whatever you want to show off visually.
-// Put image files in /public/gallery and reference them like '/gallery/photo1.jpg'.
-// Leave empty [] to hide the section.
 export const gallery = [
-  { src: "public/gallery/image_1.jpg", caption: "Gammadda-volunteering" },
+  { src: "/gallery/image_1.jpg", caption: "Gammadda-volunteering" },
   { src: "/gallery/image_2.jpg", caption: "IEEE Xtreme 19.0" },
   { src: "/gallery/image_3.jpg", caption: "Mora Xtreme 10.0" },
   { src: "/gallery/image_4.jpg", caption: "Octwave 2.0" },
