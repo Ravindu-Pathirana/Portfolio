@@ -247,6 +247,12 @@ export const researchInterests = [
 
 export const certifications = [
   {
+    name: "AWS Cloud Essentials",
+    issuer: "Coursera",
+    year: "Current",
+    url: "",
+  },
+  {
     name: "The Cambridge English A2 Key (KET) Certificate",
     issuer: "British Council, Colombo 07",
     year: "2016",
@@ -267,12 +273,6 @@ export const certifications = [
     url: "",
   },
   { name: "Pandas", issuer: "Kaggle", year: "2026", url: "" },
-  {
-    name: "AWS Cloud Essentials",
-    issuer: "Coursera",
-    year: "Current",
-    url: "",
-  },
 ];
 
 //competitions/hackathons.
