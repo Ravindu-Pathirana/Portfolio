@@ -19,6 +19,7 @@ export const socials = {
   github: 'https://github.com/Ravindu-Pathirana',
   linkedin: 'https://www.linkedin.com/in/ravindu-pathirana-372082282',
   email: 'ravindup.23@cse.mrt.ac.lk',
+  phone: '+94 760 232 880',
 }
 
 export const skills = [
