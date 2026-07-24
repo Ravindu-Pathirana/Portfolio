@@ -7,7 +7,7 @@ export const profile = {
   name: "Ravindu Pathirana",
   title: "Computer Science & Engineering Undergraduate",
   tagline: "ML & Data Science Enthusiast · University of Moratuwa",
-  bio: `I'm a Computer Science & Engineering undergraduate at the University of Moratuwa with a strong passion for Software Engineering, Artificial Intelligence, Machine Learning, and Data Science. 
+  bio: `I'm a Computer Science & Engineering undergraduate at the University of Moratuwa with a strong passion for Artificial Intelligence, Machine Learning, Data Science and Software Engineering. 
   I enjoy designing and developing scalable software systems alongside intelligent applications that solve real-world problems—from full-stack software solutions to AI-powered platforms, data mining, and deep learning projects. 
   My goal is to contribute to impactful AI research while developing scalable software systems.`,
   location: "Ambalangoda, Sri Lanka",
