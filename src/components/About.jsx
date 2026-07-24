@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { MapPin, GraduationCap, Sparkles } from 'lucide-react'
+import { MapPin, GraduationCap, Sparkles, Code } from 'lucide-react'
 import SectionTitle from './SectionTitle.jsx'
 import { profile } from '../data.js'
 
@@ -59,6 +59,9 @@ export default function About() {
             </span>
             <span className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-gray-300">
               <Sparkles size={16} className="text-blue-400" /> AI · ML · Data Science
+            </span>
+            <span className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-gray-300">
+              <Code size={16} className="text-blue-400" /> Software Engineering · Web Development
             </span>
           </div>
         </motion.div>

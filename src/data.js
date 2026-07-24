@@ -6,11 +6,11 @@
 export const profile = {
   name: 'Ravindu Pathirana',
   title: 'Computer Science & Engineering Undergraduate',
-  tagline: 'AI & Data Science Enthusiast · University of Moratuwa',
-  bio: `I'm a Computer Science & Engineering undergraduate at the University of Moratuwa with a strong passion for Artificial Intelligence, Machine Learning, and Data Science. I enjoy building intelligent applications that solve real-world problems — from AI-powered healthcare solutions to data mining and deep learning projects. My goal is to contribute to impactful AI research while developing scalable software systems.`,
-  location: 'Colombo, Sri Lanka',
-  // Put your photo file in /public and set the path, e.g. '/profile.jpg'.
-  // Leave as null to show your initials instead.
+  tagline: 'ML & Data Science Enthusiast · University of Moratuwa',
+  bio: `I'm a Computer Science & Engineering undergraduate at the University of Moratuwa with a strong passion for Software Engineering, Artificial Intelligence, Machine Learning, and Data Science. 
+  I enjoy designing and developing scalable software systems alongside intelligent applications that solve real-world problems—from full-stack software solutions to AI-powered platforms, data mining, and deep learning projects. 
+  My goal is to contribute to impactful AI research while developing scalable software systems.`,
+  location: 'Ambalangoda, Sri Lanka',
   photo: '/profile.jpg',
   resumeUrl: null, // e.g. '/Ravindu_Pathirana_CV.pdf' (put the file in /public)
 }
@@ -18,7 +18,7 @@ export const profile = {
 export const socials = {
   github: 'https://github.com/Ravindu-Pathirana',
   linkedin: 'https://www.linkedin.com/in/ravindu-pathirana-372082282',
-  email: 'pathiranaravinduab@gmail.com',
+  email: 'ravindup.23@cse.mrt.ac.lk',
 }
 
 export const skills = [
