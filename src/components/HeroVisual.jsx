@@ -56,7 +56,7 @@ function NetworkLines({ className }) {
           y2={nodes[b].y}
           stroke="url(#nn-line)"
           strokeWidth="1"
-          strokeOpacity="0.4"
+          strokeOpacity="0.75"
           vectorEffect="non-scaling-stroke"
         />
       ))}
@@ -135,7 +135,7 @@ export default function HeroVisual() {
     <div className="relative h-[420px] sm:h-[480px] lg:h-[540px] w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto lg:mx-0">
       <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/20 via-purple-500/10 to-transparent blur-3xl" />
 
-      <NetworkLines className="absolute inset-0 w-full h-full opacity-40" />
+      <NetworkLines className="absolute inset-0 w-full h-full opacity-70" />
 
       {nodes.map((n, i) =>
         n.label ? (

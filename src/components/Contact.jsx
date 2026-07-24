@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, ArrowUpRight } from 'lucide-react'
+import { Github, Linkedin, Mail, ArrowUpRight, Phone } from 'lucide-react'
 import SectionTitle from './SectionTitle.jsx'
 import { socials } from '../data.js'
 
 const cards = [
+  { label: 'Phone', value: socials.phone, href: `tel:${socials.phone}`, Icon: Phone },
   { label: 'Email', value: socials.email, href: `mailto:${socials.email}`, Icon: Mail },
   { label: 'LinkedIn', value: 'Connect with me', href: socials.linkedin, Icon: Linkedin },
   { label: 'GitHub', value: 'See my code', href: socials.github, Icon: Github },

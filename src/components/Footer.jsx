@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/5">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-gray-500">
-          © {year} {profile.name}. Built with React, Vite & Tailwind.
+          © {year} {profile.name}.
         </p>
         <div className="flex items-center gap-5 text-gray-500">
           <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition" aria-label="GitHub">

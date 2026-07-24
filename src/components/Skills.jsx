@@ -1,16 +1,16 @@
-import { motion } from 'framer-motion'
-import { Code2, Brain, Globe, Database, Wrench, BookOpen } from 'lucide-react'
-import SectionTitle from './SectionTitle.jsx'
-import { skills } from '../data.js'
+import { motion } from "framer-motion";
+import { Code2, Brain, Globe, Database, Wrench, BookOpen } from "lucide-react";
+import SectionTitle from "./SectionTitle.jsx";
+import { skills } from "../data.js";
 
 const icons = {
-  'Programming Languages': Code2,
-  'AI & Machine Learning': Brain,
-  'Web Development': Globe,
+  "Programming Languages": Code2,
+  "AI & Machine Learning": Brain,
+  "Web Development": Globe,
   Databases: Database,
-  'Tools & Technologies': Wrench,
-  'Core CS': BookOpen,
-}
+  "Tools & Technologies": Wrench,
+  "Core CS": BookOpen,
+};
 
 export default function Skills() {
   return (
@@ -18,13 +18,13 @@ export default function Skills() {
       <SectionTitle eyebrow="Skills" title="Technologies I work with" />
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {skills.map((group, i) => {
-          const Icon = icons[group.category] || Code2
+          const Icon = icons[group.category] || Code2;
           return (
             <motion.div
               key={group.category}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
+              viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.05 }}
               className="glass rounded-2xl p-6 hover:bg-white/[0.07] transition group"
             >
@@ -45,9 +45,9 @@ export default function Skills() {
                 ))}
               </div>
             </motion.div>
-          )
+          );
         })}
       </div>
     </section>
-  )
+  );
 }
