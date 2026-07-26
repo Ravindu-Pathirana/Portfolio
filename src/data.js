@@ -188,11 +188,21 @@ export const projects = [
     featured: false,
   },
   {
-    name: "OnTime - Railway Ticket & Schedule Management System",
+    name: "OnTime - Highway Bus Tracking & Schedule Management System",
     status: null,
     description:
-      "A full-stack railway ticket booking and schedule management platform that streamlines train operations, reservations, recurring timetable generation, and passenger management. Built with a scalable architecture featuring a React frontend, FastAPI backend, and MySQL database, the system automates schedule generation while providing secure, high-performance APIs and an intuitive user experience.",
-    tech: ["React", "FastAPI", "Python", "MySQL", "Tailwind CSS"],
+      "OnTime is a real-time public transport tracking and management system designed for Sri Lanka's bus network. This is the semester 4 Software Engineering Project of the University of Moratuwa. The system provides real-time bus tracking for both passengers and operators, schedule management and route optimization for bus operators with seperate web and mobile applications for users. I primarily worked on the frontend development of web application.",
+    tech: [
+      "Next.js",
+      "FastAPI",
+      "WebSockets",
+      "PostgreSQL",
+      "Flutter",
+      "MQTT",
+      "TypeScript",
+      "Tailwind CSS",
+      "Mapbox",
+    ],
     github: "https://github.com/OnTime-SE-G",
     demo: "",
     featured: true,
@@ -201,7 +211,7 @@ export const projects = [
     name: "Kandypack Logistics Management System",
     status: null,
     description:
-      "A railway logistics management platform featuring recurring train scheduling, template-based trip generation, and MySQL database management using raw SQL.",
+      "A railway logistics management platform featuring recurring delivery scheduling according to available train schedules, template-based trip generation, and MySQL database management using raw SQL.",
     tech: ["FastAPI", "React", "MySQL", "TypeScript", "SQL"],
     github:
       "https://github.com/Ravindu-Pathirana/Kandypack-Logistics-Project.git", // add repo link
