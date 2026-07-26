@@ -283,6 +283,24 @@ export const certifications = [
     url: "",
   },
   { name: "Pandas", issuer: "Kaggle", year: "2026", url: "" },
+  {
+    name: "Claude Platform 101",
+    issuer: "Anthropic",
+    year: "2026",
+    url: "",
+  },
+  {
+    name: "Claude 101",
+    issuer: "Anthropic",
+    year: "2026",
+    url: "",
+  },
+  {
+    name: "Building with the Claude API",
+    issuer: "Anthropic",
+    year: "Current",
+    url: "",
+  },
 ];
 
 //competitions/hackathons.
